@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# BookEase-Scheduler  
+📅 Online Appointment Booking & Scheduling Solution  
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Planned Use Case  
+Small businesses (salons, tutors, doctors, consultants) often struggle with manual booking.  
+**BookEase-Scheduler** allows customers to schedule appointments online while admins manage everything from a dashboard.  
 
-## Setup
+## Features  
+✅ Calendar view (daily/weekly)  
+✅ Book, cancel, reschedule appointments  
+✅ Basic user authentication (admin & customer)  
+✅ Email confirmation (in-app alert if no email setup)  
 
-Make sure to install dependencies:
+## Tech Stack  
+- Frontend: Vue 3, Tailwind CSS  
+- Backend: Laravel API  
+- Database: MySQL / SQLite  
 
-```bash
-# npm
-npm install
+## Future Enhancements  
+- Stripe payment integration  
+- Automated reminders (Email/SMS)  
+- Admin stats dashboard  
 
-# pnpm
-pnpm install
+## Demo  
+👉 (TODO: live demo link here once deployed)  
+👉 (TODO: 2-min Loom walkthrough here)  
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Business Context  
+This solution is suitable for:  
+- Coaches & tutors  
+- Doctors & clinics  
+- Salons & spas  
+- Consultants & agencies  
