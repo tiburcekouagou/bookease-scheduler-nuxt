@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "bookease-scheduler",
+    "dev": "bookease-dev",
+    "prod": "bookease-scheduler"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -3,8 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
+    "build": "nuxt build --dotenv .env.prod",
+    "dev": "nuxt dev --dotenv .env.dev",
+    "stagging": "nuxt stagging --dotenv .env.stagging",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -16,6 +17,7 @@
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
     "eslint": "^9.34.0",
+    "firebase": "^12.2.1",
     "nuxt": "^4.0.3",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
