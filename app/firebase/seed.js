@@ -31,7 +31,7 @@ async function seed() {
 
   // Seed users
   for (const user of users) {
-    await db.collection('users').add(user)
+    await db.collection('users').add({ ...user, createdAt: new Date() })
     console.log(`User ${user.name} seeded.`)
   }
 
