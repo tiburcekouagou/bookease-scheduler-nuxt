@@ -10,7 +10,6 @@ const serviceAccount = JSON.parse(
 // Initialize the Firebase app with the service account
 initializeApp({
   credential: cert(serviceAccount),
-  projectId: process.env.NUXT_PUBLIC_FIREBASE_PROJECT_ID,
 })
 
 // Get a Firestore instance
