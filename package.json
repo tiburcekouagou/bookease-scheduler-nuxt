@@ -12,13 +12,15 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
-    "test": "vitest"
+    "test": "vitest",
+    "seed:firebase": "node ./app/firebase/seed.js"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
     "@pinia/nuxt": "^0.11.2",
     "eslint": "^9.34.0",
     "firebase": "^12.2.1",
+    "firebase-admin": "^13.5.0",
     "nuxt": "^4.0.3",
     "pinia": "^3.0.3",
     "vue": "^3.5.20",

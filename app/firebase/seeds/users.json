@@ -1,0 +1,23 @@
+[
+    {
+        "uid": "uid_of_tutor_123",
+        "name": "John Tutor",
+        "email": "tutor@example.com",
+        "role": "tutor",
+        "createdAt": "2025-08-20T10:00:00.000Z"
+    },
+    {
+        "uid": "uid_of_customer_456",
+        "name": "Jane Customer",
+        "email": "alice@example.com",
+        "role": "customer",
+        "createdAt": "2025-08-21T11:30:00.000Z"
+    },
+    {
+        "uid:": "uid_of_admin_789",
+        "name": "Admin User",
+        "email": "admin@example.com",
+        "role": "admin",
+        "createdAt": "2025-08-22T09:15:00.000Z"
+    }
+]
