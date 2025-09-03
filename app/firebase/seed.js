@@ -38,13 +38,13 @@ async function seed() {
 
   // Seed services
   for (const service of services) {
-    await db.collection('services').add(service)
+    await db.collection('services').add({ ...service, createdAt: new Date() })
     console.log(`Service ${service.title} seeded.`)
   }
 
   // Seed bookings
   for (const booking of bookings) {
-    await db.collection('bookings').add(booking)
+    await db.collection('bookings').add({ ...booking, createdAt: new Date() })
     console.log(`Booking for service ${booking.serviceId} seeded.`)
   }
 

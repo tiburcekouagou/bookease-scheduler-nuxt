@@ -5,7 +5,6 @@
     "tutorId": "uid_of_tutor_123",
     "scheduledAt": "2025-09-02T15:00:00.000Z",
     "status": "pending",
-    "createdAt": "2025-08-28T13:00:00.000Z",
     "notes": "Please focus on quadratic equations."
   }
 ]
