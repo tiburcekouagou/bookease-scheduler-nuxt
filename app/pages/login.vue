@@ -45,6 +45,16 @@ const handleLogin = async () => {
         Login
       </button>
     </form>
+
+    <div class="mt-4 text-sm text-gray-600">
+      Don't have an account?
+      <NuxtLink
+        to="/signup"
+        class="text-blue-600 underline"
+      >
+        Register here
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
