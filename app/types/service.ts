@@ -6,5 +6,5 @@ export interface Service {
   price: number // in cents
   tutorId: string
   isActive: boolean
-  createdAt?: Date | null
+  createdAt: Date | null
 }
