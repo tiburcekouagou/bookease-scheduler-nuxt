@@ -9,7 +9,9 @@ const { $auth } = useNuxtApp()
 const handleLogin = async () => {
   try {
     await authStore.login($auth, email.value, password.value)
-    navigateTo('/')
+    const q = useRoute().query
+    const redirectTo = (q.redirectTo as string) || '/'
+    navigateTo(redirectTo)
   }
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   catch (error: any) {
@@ -45,6 +47,16 @@ const handleLogin = async () => {
         Login
       </button>
     </form>
+
+    <div class="mt-4 text-sm text-gray-600">
+      Don't have an account?
+      <NuxtLink
+        to="/signup"
+        class="text-blue-600 underline"
+      >
+        Register here
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
