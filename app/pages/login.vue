@@ -18,10 +18,38 @@ const handleLogin = async () => {
     console.error('Login failed:', error.message)
   }
 }
+
+// const providers = ref([
+//   {
+//     label: 'Google',
+//     icon: 'i-lucide-google',
+//     color: 'neutral',
+//     variant: 'sublte',
+//   },
+//   {
+//     label: 'GitHub',
+//     icon: 'i-lucide-github',
+//     color: 'neutral',
+//     variant: 'sublte',
+//   },
+// ])
+
+// const fields = ref([
+//   { name: 'email', type: 'text', label: 'Email' },
+//   { name: 'password', type: 'password', label: 'Password' },
+// ])
 </script>
 
 <template>
   <div class="max-w-md mx-auto mt-10 p-6 border rounded">
+    <!-- <UAuthForm
+      class="max-w-md"
+      title="Login"
+      description="Enter your credentials to access your account."
+      icon="i-lucide-user"
+      :fields="fields"
+      :providers="providers"
+    /> -->
     <h1 class="text-xl font-bold mb-4">
       Login
     </h1>
